@@ -1,0 +1,20 @@
+.navbar,
+.nav-item {
+  position: relative;
+}
+
+.dropdown-toggle:after {
+  transform: translate(5px, 1.5px);
+}
+
+.active {
+  background-color: lightgreen !important;
+}
+
+.dropdown-submenu > a {
+  padding-right: 30px;
+}
+
+.hidden {
+  display: none !important;
+}
